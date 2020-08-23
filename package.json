@@ -2,6 +2,9 @@
   "name": "redux-customelements",
   "version": "1.0.0",
   "description": "A simple implementation of Custom Elements communicating using Redux.",
+  "scripts": {
+    "start": "browser-sync src -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wilmarques/redux-customelements.git"
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wilmarques/redux-customelements/issues"
   },
-  "homepage": "https://github.com/wilmarques/redux-customelements#readme"
+  "homepage": "https://github.com/wilmarques/redux-customelements#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12"
+  }
 }
