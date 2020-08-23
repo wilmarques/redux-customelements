@@ -1,0 +1,20 @@
+{
+  "name": "redux-customelements",
+  "version": "1.0.0",
+  "description": "A simple implementation of Custom Elements communicating using Redux.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilmarques/redux-customelements.git"
+  },
+  "keywords": [
+    "custom-elements",
+    "redux",
+    "lit-html"
+  ],
+  "author": "Wiley Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilmarques/redux-customelements/issues"
+  },
+  "homepage": "https://github.com/wilmarques/redux-customelements#readme"
+}
