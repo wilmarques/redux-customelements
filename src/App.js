@@ -8,7 +8,12 @@ const App = () => html`
 
   <div class="App">
     <header class="App-header">
-      <img src="logo.svg" class="App-logo" alt="logo" />
+
+      <section class="App-logo">
+        <img src="polymer-logo.svg" class="App-Polymer-logo" alt="Polymer logo" />
+        <img src="redux-logo.svg" class="App-Redux-logo" alt="Redux logo" />
+      </section>
+
       ${Counter()}
       <p>
         Edit <code>src/App.js</code> and save to reload.

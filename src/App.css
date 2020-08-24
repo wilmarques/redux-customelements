@@ -3,8 +3,16 @@
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
+}
+
+.App-Polymer-logo {
+  height: 30vmin;
+  padding-bottom: 4vmin;
+}
+
+.App-Redux-logo {
+  height: 40vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
