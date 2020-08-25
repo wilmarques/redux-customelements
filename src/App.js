@@ -1,6 +1,6 @@
 import { html } from 'https://cdn.skypack.dev/lit-html';
 
-import Counter from './features/counter/Counter.js';
+import './features/counter/Counter.js';
 
 const App = () => html`
 
@@ -14,7 +14,8 @@ const App = () => html`
         <img src="redux-logo.svg" class="App-Redux-logo" alt="Redux logo" />
       </section>
 
-      ${Counter()}
+      <counter-element></counter-element>
+
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>

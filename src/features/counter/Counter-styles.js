@@ -1,3 +1,6 @@
+import { css } from 'https://cdn.skypack.dev/lit-element';
+
+export const counterStyles = css`
 .row {
   display: flex;
   align-items: center;
@@ -71,3 +74,4 @@
   opacity: 1;
   transition: 0s
 }
+`;
